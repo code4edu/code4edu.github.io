@@ -65,6 +65,9 @@ p {
     line-height: 1.5;
 }
 
+.large {
+    font-size: 20px;
+}
 .bg-primary {
     background-color: #464547;
 }
@@ -79,7 +82,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -499,4 +502,26 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.subtext {
+  color: #CCCCCC;
+}
+
+.highlight {
+  padding: 50px;
+}
+
+#about {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
